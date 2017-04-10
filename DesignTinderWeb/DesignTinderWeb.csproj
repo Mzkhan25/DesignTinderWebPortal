@@ -226,15 +226,19 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.MobileApp.cs" />
+    <Compile Include="Controllers\ImageTableController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
     <Compile Include="Controllers\ProjectsController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="DataObjects\ImageTable.cs" />
     <Compile Include="DataObjects\Project.cs" />
+    <Compile Include="DataObjects\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703300836135_30-03-2017.cs" />
-    <Compile Include="Migrations\201703300836135_30-03-2017.Designer.cs">
-      <DependentUpon>201703300836135_30-03-2017.cs</DependentUpon>
+    <Compile Include="Migrations\201704100633535_version2.cs" />
+    <Compile Include="Migrations\201704100633535_version2.Designer.cs">
+      <DependentUpon>201704100633535_version2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MobileServiceContext.cs" />
@@ -260,6 +264,7 @@
     <Content Include="font-awesome-4.5.0\fonts\fontawesome-webfont.woff" />
     <Content Include="font-awesome-4.5.0\fonts\fontawesome-webfont.woff2" />
     <Content Include="font-awesome-4.5.0\fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\WATG-DesignX - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\hero-slider-main.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -303,12 +308,12 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703300836135_30-03-2017.resx">
-      <DependentUpon>201703300836135_30-03-2017.cs</DependentUpon>
-    </EmbeddedResource>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <EmbeddedResource Include="Migrations\201704100633535_version2.resx">
+      <DependentUpon>201704100633535_version2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

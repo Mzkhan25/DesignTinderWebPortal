@@ -7,13 +7,13 @@ namespace DesignTinderWeb.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class _30032017 : IMigrationMetadata
+    public sealed partial class version2 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(_30032017));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(version2));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703300836135_30-03-2017"; }
+            get { return "201704100633535_version2"; }
         }
         
         string IMigrationMetadata.Source

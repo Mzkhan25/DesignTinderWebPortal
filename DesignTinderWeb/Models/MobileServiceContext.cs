@@ -20,13 +20,16 @@ namespace DesignTinderWeb.Models
         // service name, set by the 'MS_MobileServiceName' AppSettings in the local 
         // Web.config, is the same as the service name when hosted in Azure.
 
-        private const string connectionStringName = "Data Source=tcp:watg.database.windows.net,1433;Initial Catalog=DesignTinder;User ID=watg@watg;Password=W@tg2416";
+        private const string connectionStringName = "Data Source=tcp:watg.database.windows.net,1433;Initial Catalog=DesignX;User ID=watg@watg;Password=W@tg2416";
 
         public MobileServiceContext() : base(connectionStringName)
         {
         }
 
         public DbSet<Project> Projects { get; set; }
+        public DbSet<ImageTable> ImageTables { get; set; }
+        public DbSet<User> Users { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
