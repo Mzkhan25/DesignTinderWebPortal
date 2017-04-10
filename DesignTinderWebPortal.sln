@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTinderWebPortal", "DesignTinderWebPortal\DesignTinderWebPortal.csproj", "{C01F1F7E-664B-423A-8C3A-E67E0D8B1B06}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6B5028C9-584B-4083-9357-0349F8D782D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTinderModel", "DesignTinderModel\DesignTinderModel.csproj", "{A676411B-BB00-449A-B5C0-D4528A78B4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTinderData", "DesignTinderData\DesignTinderData.csproj", "{F9EB3BA6-7E88-427B-B52F-BFDC4A995900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTinderContract", "DesignTinderContact\DesignTinderContract.csproj", "{D52BFA7E-BA49-4554-A540-596EF90CADE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTinderWeb", "DesignTinderWeb\DesignTinderWeb.csproj", "{5D9B4EE1-EE7F-4362-99A2-B277D33E9C4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +19,29 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C01F1F7E-664B-423A-8C3A-E67E0D8B1B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C01F1F7E-664B-423A-8C3A-E67E0D8B1B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C01F1F7E-664B-423A-8C3A-E67E0D8B1B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C01F1F7E-664B-423A-8C3A-E67E0D8B1B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A676411B-BB00-449A-B5C0-D4528A78B4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A676411B-BB00-449A-B5C0-D4528A78B4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A676411B-BB00-449A-B5C0-D4528A78B4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A676411B-BB00-449A-B5C0-D4528A78B4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EB3BA6-7E88-427B-B52F-BFDC4A995900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EB3BA6-7E88-427B-B52F-BFDC4A995900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EB3BA6-7E88-427B-B52F-BFDC4A995900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EB3BA6-7E88-427B-B52F-BFDC4A995900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52BFA7E-BA49-4554-A540-596EF90CADE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52BFA7E-BA49-4554-A540-596EF90CADE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52BFA7E-BA49-4554-A540-596EF90CADE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52BFA7E-BA49-4554-A540-596EF90CADE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9B4EE1-EE7F-4362-99A2-B277D33E9C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9B4EE1-EE7F-4362-99A2-B277D33E9C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9B4EE1-EE7F-4362-99A2-B277D33E9C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9B4EE1-EE7F-4362-99A2-B277D33E9C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A676411B-BB00-449A-B5C0-D4528A78B4D5} = {6B5028C9-584B-4083-9357-0349F8D782D7}
+		{F9EB3BA6-7E88-427B-B52F-BFDC4A995900} = {6B5028C9-584B-4083-9357-0349F8D782D7}
+		{D52BFA7E-BA49-4554-A540-596EF90CADE7} = {6B5028C9-584B-4083-9357-0349F8D782D7}
 	EndGlobalSection
 EndGlobal
